@@ -1,0 +1,8 @@
+se encontro un error al fallar kitty
+
+esto lo soluciona:
+sudo pacman -S xdg-desktop-portal-hyprland xdg-desktop-portal-gtk
+systemctl --user restart xdg-desktop-portal
+
+este comando lo detecto:
+kitty --config ~/.config/kitty/kitty.conf 
